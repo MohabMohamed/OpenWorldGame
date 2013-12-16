@@ -1,0 +1,24 @@
+<scene previous_export_time="1369729114.463059" formatVersion="1.0.1" exported_by="adam" export_time="1369729172.1087034" >
+  <nodes >
+    <node name="naggar" >
+      <position z="194.620850" y="8.994481" x="-126.618690" />
+      <rotation qz="-0.000000" qy="1.000000" qx="0.000000" qw="0.000000" />
+      <scale z="4.376748" y="6.659754" x="14.645816" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity ghost="False" name="Cube" damping_trans="0.02539999969303608" velocity_min="0.0" meshFile="Cube.mesh" lock_trans_y="False" lock_trans_x="False" lock_trans_z="False" inertia_tensor="0.4000000059604645" anisotropic_friction="False" actor="False" physics_type="STATIC" lock_rot_x="False" lock_rot_y="False" mass_radius="1.0" friction_z="1.0" friction_y="1.0" friction_x="1.0" velocity_max="0.0" lock_rot_z="False" mass="1.0" damping_rot="0.1589999943971634" />
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="/home/adam/workspace/java/7enkesh/assets/Scenes/Naggar/Material.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourDiffuse r="0.05087608844041824" g="0.05087608844041824" b="0.05087608844041824" />
+    <colourBackground r="0.05087608844041824" g="0.05087608844041824" b="0.05087608844041824" />
+    <colourAmbient r="0.0" g="0.0" b="0.0" />
+  </environment>
+</scene>

@@ -1,0 +1,20 @@
+<scene export_time="1369742239.4639716" formatVersion="1.0.1" previous_export_time="1369742058.1775177" exported_by="adam" >
+  <nodes >
+    <node name="zbala" >
+      <position y="-1.704731" x="-29.039585" z="-41.855995" />
+      <rotation qw="1.000000" qy="0.000000" qx="0.000000" qz="-0.000000" />
+      <scale y="18.843370" x="18.843370" z="18.843370" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity name="Plane" lock_trans_y="False" velocity_min="0.0" friction_x="1.0" mass_radius="1.0" friction_z="1.0" damping_rot="0.10000000149011612" physics_type="STATIC" inertia_tensor="0.4000000059604645" actor="False" mass="1.0" lock_trans_x="False" anisotropic_friction="False" ghost="False" friction_y="1.0" lock_trans_z="False" velocity_max="0.0" meshFile="Plane.mesh" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" damping_trans="0.03999999910593033" />
+    </node>
+  </nodes>
+  <externals />
+  <environment >
+    <colourBackground g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+    <colourAmbient g="0.0" b="0.0" r="0.0" />
+    <colourDiffuse g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+  </environment>
+</scene>

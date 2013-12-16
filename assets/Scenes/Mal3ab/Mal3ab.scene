@@ -1,0 +1,47 @@
+<scene previous_export_time="0" export_time="1369711581.4790926" formatVersion="1.0.1" exported_by="adam" >
+  <nodes >
+    <node name="PlayGround.001" >
+      <position z="52.075665" y="4.234067" x="-100.859108" />
+      <rotation qw="0.705703" qy="0.708507" qx="0.000000" qz="-0.000000" />
+      <scale z="65.202042" y="0.554499" x="34.877888" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity inertia_tensor="0.4000000059604645" lock_trans_z="False" lock_trans_y="False" lock_trans_x="False" ghost="False" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" mass_radius="1.0" meshFile="Cube.000.mesh" velocity_min="0.0" physics_type="STATIC" name="Cube.000" actor="False" damping_rot="0.10000000149011612" velocity_max="0.0" friction_y="1.0" friction_x="1.0" friction_z="1.0" anisotropic_friction="False" damping_trans="0.03999999910593033" />
+      <node name="3arda.002" >
+        <position z="-0.940529" y="1.024319" x="-0.303461" />
+        <rotation qw="-0.000000" qy="1.000000" qx="0.000000" qz="-0.000000" />
+        <scale z="0.016678" y="1.961101" x="0.031178" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity inertia_tensor="0.4000000059604645" lock_trans_z="False" lock_trans_y="False" lock_trans_x="False" ghost="False" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" mass_radius="1.0" meshFile="Circle.002.mesh" velocity_min="0.0" physics_type="STATIC" name="Circle.002" actor="False" damping_rot="0.10000000149011612" velocity_max="0.0" friction_y="1.0" friction_x="1.0" friction_z="1.0" anisotropic_friction="False" damping_trans="0.03999999910593033" />
+      </node>
+      <node name="3arda.003" >
+        <position z="0.932634" y="1.024319" x="0.193135" />
+        <rotation qw="1.000000" qy="0.000000" qx="0.000000" qz="-0.000000" />
+        <scale z="0.016678" y="1.961101" x="0.031178" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity inertia_tensor="0.4000000059604645" lock_trans_z="False" lock_trans_y="False" lock_trans_x="False" ghost="False" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" mass_radius="1.0" meshFile="Circle.003.mesh" velocity_min="0.0" physics_type="STATIC" name="Circle.003" actor="False" damping_rot="0.10000000149011612" velocity_max="0.0" friction_y="1.0" friction_x="1.0" friction_z="1.0" anisotropic_friction="False" damping_trans="0.03999999910593033" />
+      </node>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="/home/adam/workspace/java/7enkesh/assets/Scenes/Mal3ab/Material.material" />
+    </item>
+    <item type="material" >
+      <file name="/home/adam/workspace/java/7enkesh/assets/Scenes/Mal3ab/bricks.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourAmbient r="0.0" g="0.0" b="0.0" />
+    <colourBackground r="0.05087608844041824" g="0.05087608844041824" b="0.05087608844041824" />
+    <colourDiffuse r="0.05087608844041824" g="0.05087608844041824" b="0.05087608844041824" />
+  </environment>
+</scene>

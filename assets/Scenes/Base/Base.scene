@@ -1,0 +1,24 @@
+<scene export_time="1369719614.2542994" previous_export_time="0" exported_by="adam" formatVersion="1.0.1" >
+  <nodes >
+    <node name="Base" >
+      <position x="0.000000" y="1.254981" z="-0.000000" />
+      <rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity lock_trans_x="False" lock_trans_y="False" lock_trans_z="False" inertia_tensor="0.4000000059604645" mass="1.0" actor="False" friction_z="1.0" friction_x="1.0" friction_y="1.0" meshFile="Cube.050.mesh" anisotropic_friction="False" name="Cube.050" ghost="False" physics_type="STATIC" lock_rot_z="False" lock_rot_y="False" lock_rot_x="False" velocity_max="0.0" damping_trans="0.03999999910593033" mass_radius="1.0" damping_rot="0.10000000149011612" velocity_min="0.0" />
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="/home/adam/workspace/java/7enkesh/assets/Scenes/Base/Material.014.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourAmbient r="0.0" b="0.0" g="0.0" />
+    <colourDiffuse r="0.05087608844041824" b="0.05087608844041824" g="0.05087608844041824" />
+    <colourBackground r="0.05087608844041824" b="0.05087608844041824" g="0.05087608844041824" />
+  </environment>
+</scene>
