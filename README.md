@@ -14,6 +14,9 @@ His goal is to collect 15,000 pounds to buy his own toktok. <br />
 * Blender3D (for 3D art).
 
 ## Current State
+![Alt text](/Screenshot1.png?raw=true "1")
+![Alt text](/Screenshot2.png?raw=true "1")
+
 
 I'm not even sure if that's the best code foundation laid right there, but I've had good layers of abstractions that should cover all the needs to come. <br />
 ![Alt text](/7enkeshUML.png?raw=true "1")
