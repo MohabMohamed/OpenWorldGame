@@ -16,7 +16,7 @@ His goal is to collect 15,000 pounds to buy his own toktok. <br />
 ## Current State
 
 I'm not even sure if that's the best code foundation laid right there, but I've had good layers of abstractions that should cover all the needs to come. <br />
-I'll upload a class diagram soon so that you'd have better understanding of the code. <br />
+![Alt text](/7enkeshUML.png?raw=true "1")
 
 As for the artwork, it certainly sucks. I need 3D artists and animators. help!
 
