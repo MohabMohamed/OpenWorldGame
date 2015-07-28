@@ -26,12 +26,10 @@ import com.jme3.scene.Spatial;
 public class RandomThings extends AbstractThing
 {
     private Spatial tree;
-    private Spatial koshk;
     private Spatial zbala;
     private Spatial car;
     
     private RigidBodyControl treeCollision;
-    private RigidBodyControl koshkCollision;
     private RigidBodyControl carCollision;
     
     public RandomThings(BulletAppState bulletAppState)
@@ -53,11 +51,6 @@ public class RandomThings extends AbstractThing
         tree.setLocalTranslation(0, -12, 0);
         rootNode.attachChild(tree);
         
-        koshk = assetManager.loadModel("Scenes/Koshk/koshk.scene");
-        koshk.setLocalScale(2f);
-        koshk.setLocalTranslation(0, -12, 0);
-        rootNode.attachChild(koshk);
-        
         zbala = assetManager.loadModel("Scenes/zbala/zbala.scene");
         zbala.setLocalTranslation(0, -12, 0);
         rootNode.attachChild(zbala);
@@ -71,10 +64,5 @@ public class RandomThings extends AbstractThing
         treeCollision = new RigidBodyControl(sceneShapetree, 0);
         tree.addControl(treeCollision);
         bulletAppState.getPhysicsSpace().add(treeCollision);
-        
-        CollisionShape sceneShapeKoshk = CollisionShapeFactory.createMeshShape((Node) koshk);
-        koshkCollision = new RigidBodyControl(sceneShapeKoshk, 0);
-        koshk.addControl(koshkCollision);
-        bulletAppState.getPhysicsSpace().add(koshkCollision);
     }
 }

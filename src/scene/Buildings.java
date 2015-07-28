@@ -30,20 +30,12 @@ public class Buildings extends AbstractThing
     private Spatial firstBuilding;
     private Spatial secondBuilding;
     private Spatial highWayBuilding;
-    private Spatial gezara;
-    private Spatial qahwa;
-    private Spatial masjid;
-    private Spatial naggar;
     
     private RigidBodyControl buildingsCollision;
     private RigidBodyControl building5azanCollision;
     private RigidBodyControl firstBuildingCollision;
     private RigidBodyControl secondBuildingCollision;
     private RigidBodyControl highWayBuildingCollision;
-    private RigidBodyControl gezaraCollision;
-    private RigidBodyControl qahwaCollision;
-    private RigidBodyControl masjidCollision;
-    private RigidBodyControl naggarCollision;
     
     
     public Buildings(BulletAppState bulletAppState)
@@ -84,25 +76,6 @@ public class Buildings extends AbstractThing
         highWayBuilding.setLocalTranslation(0, -12, 0);
         rootNode.attachChild(highWayBuilding);
         
-        gezara = assetManager.loadModel("Scenes/Gezara/Gezara.j3o");
-        gezara.setLocalScale(2f);
-        gezara.setLocalTranslation(0, -12, 0);
-        rootNode.attachChild(gezara);
-        
-        qahwa = assetManager.loadModel("Scenes/Qahwa/Qahwa.j3o");
-        qahwa.setLocalScale(2f);
-        qahwa.setLocalTranslation(0, -12, 0);
-        rootNode.attachChild(qahwa);
-        
-        masjid = assetManager.loadModel("Scenes/Masjid/Masjid.j3o");
-        masjid.setLocalScale(2f);
-        masjid.setLocalTranslation(0, -12, 0);
-        rootNode.attachChild(masjid);
-        
-        naggar = assetManager.loadModel("Scenes/Naggar/nagar.j3o");
-        naggar.setLocalScale(2f);
-        naggar.setLocalTranslation(0, -12, 0);
-        rootNode.attachChild(naggar);
     }
     
     private void setUpPhysics()
@@ -134,25 +107,5 @@ public class Buildings extends AbstractThing
         highWayBuildingCollision = new RigidBodyControl(sceneShapehighWayBuilding, 0);
         highWayBuilding.addControl(highWayBuildingCollision);
         bulletAppState.getPhysicsSpace().add(highWayBuildingCollision);
-        
-        CollisionShape sceneShapegezara = CollisionShapeFactory.createMeshShape((Node) gezara);
-        gezaraCollision = new RigidBodyControl(sceneShapegezara, 0);
-        gezara.addControl(gezaraCollision);
-        bulletAppState.getPhysicsSpace().add(gezaraCollision);
-        
-        CollisionShape sceneShapeqahwa = CollisionShapeFactory.createMeshShape((Node) qahwa);
-        qahwaCollision = new RigidBodyControl(sceneShapeqahwa, 0);
-        qahwa.addControl(qahwaCollision);
-        bulletAppState.getPhysicsSpace().add(qahwaCollision);
-        
-        CollisionShape sceneShapemasjid = CollisionShapeFactory.createMeshShape( masjid);
-        masjidCollision = new RigidBodyControl(sceneShapemasjid, 0);
-        masjid.addControl(masjidCollision);
-        bulletAppState.getPhysicsSpace().add(masjidCollision);
-        
-        CollisionShape sceneShapenaggar = CollisionShapeFactory.createMeshShape(naggar);
-        naggarCollision = new RigidBodyControl(sceneShapenaggar, 0);
-        naggar.addControl(naggarCollision);
-        bulletAppState.getPhysicsSpace().add(naggarCollision);
     }
 }

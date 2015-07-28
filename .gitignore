@@ -1,3 +1,5 @@
 build/*
 dist/*
 nbproject/*
+*.blend1
+*.blend2
